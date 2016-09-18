@@ -1,3 +1,48 @@
 html {
+  width: 100%;
+  background-color: lightblue;
+  font-family: "Dosis", "arial", "Dosis"
+}
+body {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  margin: 20px 0;
+}
+
+nav ul {
+ width: 100%;
+}
+
+nav ul li {
+  width: 20%;
+  float: left;
+}
+
+nav ul li a {
+  text-decoration: none;
+  background-color:#e6f0f2;
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin: 10px;
+  padding: 5px;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
   background-color: lightblue;
 }
+
+nav ul li a:visited { 
+  text-decoration: none; 
+  color: darkgrey; }
+
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:black }
+
+
