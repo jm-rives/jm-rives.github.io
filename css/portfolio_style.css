@@ -44,7 +44,9 @@ nav ul li a:visited {
   text-decoration: none; 
   color: #656060; 
 }
-
+preview {
+  size: 15%;
+}
 footer {
   width: 100%;
 }
