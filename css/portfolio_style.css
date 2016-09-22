@@ -1,7 +1,7 @@
 html {
   width: 100%;
   background-color: lightblue;
-  font-family: "Dosis", "arial", "Dosis"
+  font-family: "Dosis", "arial";
 }
 body {
   width: 100%;
@@ -44,11 +44,16 @@ nav ul li a:visited {
   text-decoration: none; 
   color: #656060; 
 }
-preview {
-  size: 15%;
-}
+
 footer {
   width: 100%;
 }
 
+.example {
+  height: 15rem;
+  width: 15rem;
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem;
+}
 
