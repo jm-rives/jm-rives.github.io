@@ -52,11 +52,12 @@ footer {
 }
 
 .banner {
- margin: 0px;
+   background: url(assets/preset-images/header.jpg);
+/* margin: 0px;
  padding: 0px;
  overflow: hidden;
  height: 10%;
- background: center no-repeat;
+ background: center no-repeat;*/
 }
 
 title {
@@ -71,4 +72,8 @@ article p {
   font-size: 1rem;
 }
 
+article a {
+  text-decoration: none;
+
+}
 

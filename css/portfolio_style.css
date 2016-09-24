@@ -40,13 +40,17 @@ nav ul li a:hover {
   background-color: lightblue;
 }
 
-nav ul li a:visited { 
+nav ul li a:visited {
   text-decoration: none; 
   color: #656060; 
 }
 
 footer {
   width: 100%;
+}
+
+p {
+  font-size: 1.5rem;
 }
 
 .example {
@@ -56,4 +60,3 @@ footer {
   margin: 1rem;
   padding: 1rem;
 }
-
