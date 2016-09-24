@@ -1,7 +1,7 @@
 html {
   width: 100%;
   background-color: lightblue;
-  font-family: "Dosis", "arial", "Dosis"
+  font-family: "Dosis", "Helvetica", "Times New Roman"
 }
 body {
   width: 100%;
@@ -45,31 +45,28 @@ nav ul li a:visited {
   color: #656060; 
 }
 
-
+div img {
+  float: left;
+  border-radius: 50%;
+}
 
 footer {
   width: 100%;
+  clear: both;
 }
 
-.banner {
-   background: url(assets/preset-images/header.jpg);
-/* margin: 0px;
- padding: 0px;
- overflow: hidden;
- height: 10%;
- background: center no-repeat;*/
-}
 
 title {
   font-size: 4rem;
 }
 article h1 {
-  font-size:3rem;
-  align-content: left;
+  font-size: 3rem;
+  text-decoration-color: mediumblue;
 }
 
 article p {
   font-size: 1rem;
+  clear: bottom;
 }
 
 article a {
