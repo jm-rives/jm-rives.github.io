@@ -1,0 +1,115 @@
+html {
+  width: 100%;
+  background-color: lightblue;
+  font-family: "Dosis", "Helvetica", "Times New Roman"
+
+}
+
+body {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  margin: 20px 0;
+}
+
+nav ul {
+ width: 100%;
+}
+
+nav ul li {
+  width: 20%;
+  float: left;
+}
+
+nav ul li a {
+  text-decoration: none;
+  background-color:#e6f0f2;
+  text-align: center;
+  display: block;
+  font-size: 0.75rem;
+  width: 100%;
+  margin: 20px;
+  padding: 10px;
+  color: #666666;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  background-color: lightblue;
+}
+
+nav ul li a:visited {
+  text-decoration: none; 
+  color: #656060; 
+}
+
+footer {
+  width: 100%;
+}
+
+p {
+  font-size: 1rem;
+}
+
+img.banner {
+  margin-left: 4%;
+  width: 99%; height: 10%;
+  float: left;
+  clear: both;
+  margin-top: 0.5%;
+  margin-bottom: 3%;
+}
+
+h1 {
+  font-size: 2.5rem;
+/*  margin-left: 0;
+  margin-bottom: 0;*/
+
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 4%;
+}
+
+h3 {
+  margin-left: 5%;
+  font-size: 1rem;
+  text-align: left;
+}
+
+article {
+  float: left;
+  clear: left;
+}
+
+article a {
+  text-decoration: none;
+
+}
+
+article p {
+  text-align: left;
+  margin-left: 5%;
+}
+
+main aside {
+  display: inline;
+  font-size: 0.75rem;
+  text-align: left;
+  float: left;
+  clear: left;
+  font-style: italic;
+  margin-left: 5%;
+
+}
+
+aside a {
+  text-decoration: none;
+}
+
